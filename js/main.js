@@ -5,4 +5,8 @@ document.addEventListener("DOMContentLoaded", function(){
         setInterval(function(){
                 subtitle.refresh();
         }, 15000);
+	var cpan = new CPAN();
+	cpan.modules(function(data){
+		document.querySelector("spam#cpan_count").innerText = data.hits.total;
+	});
 }, false);

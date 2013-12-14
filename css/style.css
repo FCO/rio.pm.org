@@ -143,3 +143,8 @@ a:hover {
 a img {
     border:0;
 }
+
+div#cpan_box {
+    display: block;
+    border: 1px solid red;
+}
