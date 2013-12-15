@@ -1,7 +1,7 @@
 <div id="menu">
 	<ul class="menu">
 		{% for item in site.data.menu %}
-			<li><a href="{{ item.href }}">{{ item.name }}</a></li>
+			<li><a href="{{ site.url }}{{ item.href }}">{{ item.name }}</a></li>
 		{% endfor %}
 	</ul>
 </div>

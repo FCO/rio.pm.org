@@ -35,4 +35,13 @@ setInterval("updateCountdown('countdown', Date.UTC(2013,01,10,19,0,0), new Date(
 <p>Se voc&ecirc; (AINDA) n&atilde;o foi a um de nossos encontros sociais, veja aqui o que perdeu e n&atilde;o marque bobeira no pr&oacute;ximo!</p>
 <a href="http://www.flickr.com/photos/rio-pm/">Fotos dos encontros da Rio-PM</a>
 
-<br/><br/><br/><br/>
+<br/><br/>
+
+Encontros Sociais anteriores:
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.link }}</a>
+    </li>
+  {% endfor %}
+</ul>

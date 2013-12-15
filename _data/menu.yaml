@@ -1,30 +1,30 @@
 - name: Home
   href: /			
-#- name: Quack &amp; Hack
-#  href: quack-and-hack.html	
+#- name: /Quack &amp; Hack
+#  href: /quack-and-hack.html	
 - name: FAQ
-  href: FAQ.html		
+  href: /FAQ.html		
 - name: Quem usa Perl?
-  href: quem_usa.html		
+  href: /quem_usa.html		
 - name: Mitos &amp; FUD
-  href: mitos.html		
+  href: /mitos.html		
 - name: Iniciantes
-  href: iniciantes.html		
+  href: /iniciantes.html		
 - name: Diversão
-  href: diversao.html		
+  href: /diversao.html		
 - name: Desenvolvimento
-  href: desenvolvimento.html	
+  href: /desenvolvimento.html	
 - name: Lista de discussão
-  href: lista.html		
+  href: /lista.html		
 - name: Encontros Sociais
-  href: enc_sociais.html	
+  href: /enc_sociais.html	
 - name: Encontros Técnicos
-  href: enc_tecnicos.html	
+  href: /enc_tecnicos.html	
 - name: Livros &amp; Resenhas
-  href: livros_e_resenhas.html	
+  href: /livros_e_resenhas.html	
 - name: Módulos &amp; CPAN
-  href: CPAN.html		
+  href: /CPAN.html		
 - name: Sobre a Rio-PM
-  href: sobre.html		
+  href: /sobre.html		
 - name: + Regionais PM
-  href: regionais.html		
+  href: /regionais.html		
