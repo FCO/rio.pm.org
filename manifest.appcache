@@ -1,0 +1,19 @@
+---
+---
+CACHE MANIFEST
+# {{ site.time }}
+
+{% if site.data.manifest.cache %}CACHE:
+{% for file in site.data.manifest.cache %}{{ file }}
+{% endfor %}
+{% endif %}
+
+{% if site.data.manifest.network %}NETWORK:
+{% for file in site.data.manifest.network %}{{ file }}
+{% endfor %}
+{% endif %}
+
+{% if site.data.manifest.fallback %}FALLBACK:
+{% for file in site.data.manifest.fallback %}{{ file }}
+{% endfor %}
+{% endif %}

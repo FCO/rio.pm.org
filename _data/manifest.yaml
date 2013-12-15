@@ -1,0 +1,21 @@
+---
+cache:
+  - CPAN.html
+  - FAQ.html
+  - desenvolvimento.html
+  - diversao.html
+  - enc_sociais.html
+  - enc_tecnicos.html
+  - index.html
+  - iniciantes.html
+  - lista.html
+  - livros_e_resenhas.html
+  - mitos.html
+  - quack-and-hack.html
+  - quem_usa.html
+  - regionais.html
+  - sobre.html
+  - css/style.css
+  - js/CPAN.js
+  - js/Subtitle.js
+  - js/main.js

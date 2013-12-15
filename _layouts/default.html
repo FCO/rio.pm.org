@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html manifest="{{'manifest.appcache' | asset_url }}">
 	<head>
 		<meta charset="utf-8" >
        		<title>
 			{{ page.title }}
        		</title>
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="{{ 'css/style.css' | asset_url }}">
 	</head>
 	<body>
 		{% include scripts.html %}
