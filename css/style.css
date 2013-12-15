@@ -70,6 +70,20 @@ ul.menu > li:hover {
     border-left: 4px solid #ff0000;
 }
 
+div#cpan_box {
+    padding: 4px;
+    margin: 0px 2px 4px 0px;
+    display: block;
+    background-color: #ffe0a3;
+    border-left: 4px solid #ff9600;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+
+div#cpan_box span {
+    font-weight: normal;
+}
+
 #frontphoto {
     margin:0 0 10px;
     border:0;
@@ -144,7 +158,3 @@ a img {
     border:0;
 }
 
-div#cpan_box {
-    display: block;
-    border: 1px solid red;
-}

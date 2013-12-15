@@ -10,8 +10,11 @@ function CPAN() {
 }
 
 CPAN.prototype = {
-	modules:	function(cb) {
-		this._call_jsonp("http://api.metacpan.org/v0/distribution/_search", cb);
+	count_modules:	function(cb) {
+		this._call_jsonp("http://api.metacpan.org/v0/distribution/_search?size=0", cb);
+	},
+	last_released:	function(cb) {
+		this._call_jsonp("http://api.metacpan.org/v0/release/_search?q=status:latest&sort=date:desc&size=1&fields=metadata.name", cb);
 	},
 	_call_jsonp:	function(url, cb) {
 		var cbid = window.new_callback(cb);

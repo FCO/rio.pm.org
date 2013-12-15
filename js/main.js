@@ -6,7 +6,10 @@ document.addEventListener("DOMContentLoaded", function(){
                 subtitle.refresh();
         }, 15000);
 	var cpan = new CPAN();
-	cpan.modules(function(data){
-		document.querySelector("spam#cpan_count").innerText = data.hits.total;
+	cpan.count_modules(function(data){
+		document.querySelector("span#cpan_count").innerText = data.hits.total;
+	});
+	cpan.last_released(function(data){
+		document.querySelector("span#cpan_last").innerText = data.hits.hits[0].fields["metadata.name"];
 	});
 }, false);
