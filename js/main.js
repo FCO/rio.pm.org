@@ -12,4 +12,13 @@ document.addEventListener("DOMContentLoaded", function(){
 	cpan.last_released(function(data){
 		document.querySelector("span#cpan_last").innerText = data.hits.hits[0].fields["metadata.name"];
 	});
+
+	var appCache = window.applicationCache;
+
+	setInterval(function(){appCache.update()}, 1000 * 60 * 60 * 3);
+
+	if (appCache.status == window.applicationCache.UPDATEREADY) {
+		console.log("updated");
+		appCache.swapCache();
+	}
 }, false);
